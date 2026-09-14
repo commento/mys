@@ -35,7 +35,16 @@ body {
   }
 
   main li + li {
-    margin-top: 0.35em;
+    margin-top: 0.8em;
+  }
+
+  /* Live dates: city and year on their own line */
+  .sep {
+    display: none;
+  }
+
+  .where {
+    display: block;
   }
 }
 
